@@ -1,31 +1,130 @@
-# Jobs
-# VP of Global Communications
-- company: Viant
+- company: Viant Technology
+  duration: "September 2015 - February 2022"
   positions:
+
     - name: Principal Cloud Architect
-      duration: Oct 2021 - Feb 2022
       summary: Responsible for the overall design and direction for the cloud architecture of the company. 
       accomplishments:
         - Evaluated Github Actions for Github Enterprise and started pipeline migrations from CircleCI. 
         - Integrated JIRA change tickets with Github Actions making full CI available to application stakeholders. 
         - Enabled full CI for back-end Golang application and front-end Angular application using Github Actions and JIRA.
+
     - name: Director, SRE
-      duration: Jun 2018 - Sep 2021
       summary: Re-org with all operations falling under Devops and Site Reliability Engineering focusing project based work. Agile 3 person team.
       accomplishments:
-        - blsadff 2013
-        - sdfsdf 2323
-- company: Verizon
+        - Created structured Github repository for Kubernetes YAML definition files.
+        - Evaluated and deployed CirceCI Enterprise as a replacement for Drone CI.
+        - Integrated JIRA change tickets with CircleCI making full CI available to application stakeholders.
+        - Enabled full CI for front-end Angular application using CircleCI and JIRA.
+        - Evaluated and deployed Amazon Elastic Kubernetes Service (EKS) in multiple regions using Terraform.
+        - Migrated several internal applications from GKE to EKS. 
+        - Evaluated logz.io to replace internal Graylog deployment then lead migration effort.
+        - Developed a low latency log collector for legacy applications to ship to logz.io.
+    
+    - name: Director, Devops
+      summary: Reported directly to the CIO. Ran an agile 3 person team. Would design, demo, and implement solutions then handover to operations for maintenance.  
+      accomplishments:
+        - Designed and deployed a multi-cloud logging and alerting solution using Graylog.
+        - Created SaltStack formula templates for all applications.
+        - Deployed Google Kubernetes Engine (GKE) Clusters in multiple regions for internal applications.
+        - Dockerized all internal applications and migrated to GKE.
+        - Created Drone CI deployment using GKE.
+        - Developed custom Drone CI plugins using Docker.
+        - Evaluated and deployed Airflow in GKE . Wrote DAG templates for the operations and development teams
+        - Evaluated and deployed Vault in GKE. Created method for pulling secrets into Docker containers from Vault.
+    
+    - name: Senior Systems Architect 
+      summary: Hired by VP of Operations to help with the overall architecture of the platform.
+      accomplishments:
+        - Analyzed legacy Puppet code and created migration path to SaltStack with a centralized key/value store using MongoDB.
+        - Developed in-house editor for modifying key/value store in YAML for use by operations teams.
+        - Drove migration of primary application from Puppet on AWS to SaltStack on Google Cloud Platform.
+        - Performed initial evaluation of Google Kubernetes Engine for internal services.
+        - Evaluated several open source CI/CD solutions settling on Drone CI.
+
+
+- company: Verizon Terremark
+  duration: "May 2004 - September 2015"
   positions:
-    - name: VP of blah
-      duration: Oct, 2013 &mdash; Present
-      summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+
+    - name: Principal Architect
+      summary: Worked closely with the developers to help build and support our primary application.
       accomplishments:
-        - blsadff 2013
-        - sdfsdf 2323
-    - name: Yayaya
-      duration: Some time
-      summary: Blah
+        - Automated deployment of a full ELK (Elasticsearch, Logstash, Kibana) stack to allow developers single point app debugging.
+        - Created a driver for the libcloud project that communicated with both current and legacy cloud platforms.
+        - Fully automated system deployments for the Verizon cloud portal using SaltStack and custom Python code.
+        - Created an environment that allows remote execution and reporting using SaltStack that scales across all Verizon cloud offerings. Strategized with the development team to allow integration with our operational cloud products.
+        - Developed an automated system for creating OS templates using Puppet, Cobbler, and Python.
+
+    - name: Engineering Manager
+      summary: Formed a team to further develop and manage the systems I created while a Senior Engineer. 
       accomplishments:
-        - blsadff 2013
-        - sdfsdf 2323
+        - Continued duties as a senior engineer. 
+        - Performed atypical management duties for the team and was a blocker for other teams to allow mine to perform their duties without interruption.
+    
+    - name: Senior Engineer
+      summary: Responsible for the design, deployment, and management of all configuration management systems for our Managed Hosting Linux platform.
+      accomplishments:
+        - Designed and deployed a configuration management platform based on Puppet to maintain over 1,000 servers in a Managed hosting platform across multiple customer environments. 
+        - Integrated with our CMDB to allow scheduling of patching and software deployments via our Change Management team. 
+        - Used Puppet and custom scripts to integrate the entire environment into a newly created RSA infrastructure.
+        - Created a bare metal provisioning system based on Cobbler using Python to allow operating system builds on physical and virtual devices. Once the deployment was completed the device would then be handed over to the Puppet platform to finalize the build and integration.
+
+    - name: Unix Engineer
+      summary: Platform Services team member responsible for maintaining all Unix platforms throughout the company.
+      accomplishments:
+        - Developed and maintained an OS build system for RHEL and ESX based platforms on HP Proliant hardware. 
+        - Integrated all Unix platforms with a production SMS system that allows for patching and general server administration. 
+        - Developed scripts to help maintain the ESX 3.0 platform.
+    
+    - name: Security Engineer
+      summary: Team member responsible for proactively and reactively maintaining the security of corporate and customer networks.
+      accomplishments:
+        - Ran vulnerability scans and execited the remediation of the data.
+        - Maintained and monitored a custom Snort install.
+        - Wrote custom auditing scripts for various OS’s. 
+
+    - name: Assigned Systems Engineer
+      summary: Dedicated technical resource and escalation point for assigned customers. 
+      accomplishments:
+        - Evaluated and wrote application flows for customer’s environment.
+        - Implemented custom monitors on break points in the application based on the written flow.
+
+- company: Sprocket Data, Inc
+  duration: "December 2001 - May 2004"
+  positions:
+
+    - name: Technical Operations Manager 
+      summary: Responsible for all technical aspects of the company. Day-to-day duties included the  development and research of custom solutions - often for client projects where no Open  Source solution could be found (resulting in the creation and execution of custom code and  system builds).
+      accomplishments:
+        - Being the final escalation point for all system issues, constant monitoring and being on call 24  hours a day was required. 
+        - Designed and implemented a multi homed BGP4 network, with each client on a dedicated  VLAN/Subnet. Wrote and implemented a bandwidth accounting system in PHP4/Perl/MySQL  to monitor client traffic usage for billing purposes.  
+        - Created an IP database that integrated with Cacti, a SNMP based graphing tool for individual  switch port monitoring. 
+        - Implemented a network monitoring solution that integrated with each technical employee's  pager via SNPP. This network included a system that would escalate based upon who was  on call. 
+        - Migrate all edge systems to OpenBSD for security concerns. All other Linux based servers were behind OpenBSD  based firewalls. 
+        - Implemented custom Slackware Linux servers for database applications  using MySQL and custom compiled kernels.
+
+- company: EpicRealm
+  duration: "March 2000 - June 2001"
+  positions:
+    - name: Software Support Engineer - Tools & Diagnostics
+      summary: Wrote tools in Perl on a Linux platform that aided the NOC technicians and customer service representatives in diagnosing network and configuration issues.
+      accomplishments:
+        - All tools pulled information from the NOC's MySQL IP database and resided on two  Slackware Linux boxes running Apache accessed via the company's intranet. 
+        - Developed an  "all-in-one" tool for diagnostics with a Perl/GTK front end. 
+        - Implemented and maintained a custom Big Brother monitoring system that communicated with our Tivoli server.
+        - Wrote several different tools in Perl that would analyze and report Squid traffic data.
+    
+    - name: Network Operations Engineer - Shift Lead 
+      summary: Monitored and troubleshot a global network.
+      accomplishments:
+        - If an issue was reported I would troubleshoot the issue  and document the procedures taken.
+        - Wrote and implemented several Perl scripts that interacted with the Foundry and Cisco equipment.
+
+- company: ThePlanet.Com Internet Services, Inc.
+  duration: "March 1999 - March 2000"
+  positions:
+    - name: Administrator
+      summary: Team member of a group of administrators that maintained various Solaris and Linux servers.
+        - Servers hosted several hundred domains running under Apache for http, Bind for DNS,  and Sendmail for email. 
+        - Responsible for the overall maintenance of a group of twenty Linux web servers that ran  Apache, Qmail, and Bind.
