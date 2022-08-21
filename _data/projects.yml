@@ -1,6 +1,19 @@
-- project: blah
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: blah
+- project: ecr-template
+  url: "https://github.com/replicant0wnz/ecr-template"
+  description: Template for deploying Docker containers to Amazon Elastic Container Registry (ECR). It allows you to either deploy locally via the command line or by Github Actions.
 
+- project: build-python
+  url: "https://github.com/replicant0wnz/build-python"
+  description: Easily extendible Python3 image with pyyaml, boto3, twine, black, and pytest to build and push to PyPI. Makefile can push to ECR.
+
+- project: Cross-platform repeatable builds using Docker and Make
+  url: "https://www.dronemusic.co/blog/cross-platform-repeatable-builds-using-docker.html"
+  description: Article written on how to perform cross-platform repeatable builds using Docker and Make.
+
+- project: Jekyll based blog
+  url: "https://github.com/replicant0wnz/blog"
+  description: Source to my Jekyll blog that has a full build, test, and deploy process.
+
+- project: ses-send
+  url: "https://github.com/replicant0wnz/ses-send"
+  description: Simple wrapper to send emails via AWS SES.
