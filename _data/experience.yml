@@ -80,7 +80,7 @@
     - name: Security Engineer
       summary: Team member responsible for proactively and reactively maintaining the security of corporate and customer networks.
       accomplishments:
-        - Ran vulnerability scans and execited the remediation of the data.
+        - Ran vulnerability scans and executed the remediation of the data.
         - Maintained and monitored a custom Snort install.
         - Wrote custom auditing scripts for various OS’s. 
 
