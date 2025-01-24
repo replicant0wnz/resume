@@ -23,7 +23,7 @@ resume_contact_address:         ""
 resume_header_contact_info:     ""
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>Automation architect and engineer that can research, analyze feasibility, develop, and deploy systems with a specialty in cloud environments.</p>"
+resume_header_intro: "<p>Cloud technology leader, architect, and engineer that can research, analyze feasibility, develop, and deploy systems with a specialty in cloud environments. Experience across all disciplines including SRE, Devops, Platform, and development.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -46,7 +46,6 @@ resume_section_interests:       true
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   resume_github_url:            "https://github.com/replicant0wnz"
-  resume_twitter_url:           "https://twitter.com/replicant0wnz"
   resume_linkedin_url:          "https://www.linkedin.com/in/replicant"
   # resume_instagram_url:         "insert your Instagram URL here"
   resume_website_url:           "https://dronemusic.co/blog"
