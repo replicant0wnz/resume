@@ -1,3 +1,17 @@
+- company: Lytx, Inc.
+  duration: "October 2022 - Janurary 2025"
+  positions:
+
+    - name: Staff Cloud Engineer
+      summary: Reported to Senior Direcor of Cloud Operations
+      accomplishments:
+        - Initial Grafana Stack 
+        - Definied github enterprise organization structure and repo standards
+        - Consioliated DNS from various providers to Route53 and create autoated repos for updating
+        - Created custom actions for company specific integrations
+        - Worked with Dev teams on getting OTEL libraries implimented
+        - Evaulated multiple o11y platforms for migration from NR
+
 - company: Viant Technology
   duration: "September 2015 - February 2022"
   positions:
