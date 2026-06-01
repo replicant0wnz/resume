@@ -1,3 +1,17 @@
+- company: Topgolf International
+  duration: "November 2025 - May 2026"
+  positions:
+
+    - name: Senior Platform Engineer
+      summary: 6 month contract to help accelerate various projects.
+      accomplishments:
+        - Prototyped and then deployed a Microsoft 2017 SQL Server in Kubernetes via a custom Helm chart. 
+        - Developed a conversion process for the MS-SQL project to convert from Windows Server 2016.
+        - MS-SQL service to be deployed into over 100+ private Kubernetes clusters in each TopGolf venue.
+        - Wrote custom Helm charts for internal applications.
+        - Helped maintain 100+ private Rancher Kubernetes clusters.
+        - Provided guidance on how to speed builds up in Github Actions.
+
 - company: Lytx, Inc.
   duration: "October 2022 - Janurary 2025"
   positions:
@@ -5,12 +19,12 @@
     - name: Staff Cloud Engineer
       summary: Reported to Senior Direcor of Cloud Operations
       accomplishments:
-        - Initial Grafana Stack 
-        - Definied github enterprise organization structure and repo standards
-        - Consioliated DNS from various providers to Route53 and create autoated repos for updating
-        - Created custom actions for company specific integrations
-        - Worked with Dev teams on getting OTEL libraries implimented
-        - Evaulated multiple o11y platforms for migration from NR
+        - Initial Grafana Stack. 
+        - Definied github enterprise organization structure and repo standards.
+        - Consioliated DNS from various providers to Route53 and create autoated repos for updating.
+        - Created custom actions for company specific integrations.
+        - Worked with Dev teams on getting OTEL libraries implimented.
+        - Evaulated multiple o11y platforms for migration from NR.
 
 - company: Viant Technology
   duration: "September 2015 - February 2022"
